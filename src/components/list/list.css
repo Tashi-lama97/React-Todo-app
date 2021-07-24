@@ -87,6 +87,21 @@
 .incompleteIcon {
   background-color: #242b2e;
 }
+.noTodo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  border-radius: 0.5rem;
+  border: 2px solid #fff;
+  padding: 2rem 0 2rem 0;
+}
+
+.noTodo p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
 
 @media screen and (max-width: 400px) {
   .listSection {
