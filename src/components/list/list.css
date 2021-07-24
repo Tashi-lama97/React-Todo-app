@@ -1,0 +1,101 @@
+.listSection {
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+.listSection .heading {
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.list {
+  margin-top: 1.8rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-direction: column-reverse;
+}
+
+.list .listItems {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  margin-top: 1rem;
+}
+.list .listItems .item {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  width: 100%;
+}
+
+.list .listItems .itemRightIcon {
+  width: 30%;
+}
+.list .listItems .itemRightIcon button {
+  margin-right: 0.5rem;
+}
+.list .listItems .itemLeftIcon {
+  width: 8%;
+}
+.list .listItems .itemText {
+  background-color: #fff;
+  width: 60%;
+  border-radius: 0.5rem;
+}
+.list .listItems .itemText .textLine {
+  margin: 0;
+  padding: 0.5rem 0 0.5rem 0;
+  color: #207398;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+  margin: 0;
+  padding: 0.5rem 0 0.5rem 0;
+  color: #1faa59;
+  font-family: "Roboto", sans-serif;
+}
+
+.button {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  font-size: 1.1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.greenIcon {
+  background-color: #1faa59;
+}
+.redIcon {
+  background-color: #bf3325;
+}
+.blueIcon {
+  background-color: #1b98f5;
+}
+.incompleteIcon {
+  background-color: #242b2e;
+}
+
+@media screen and (max-width: 400px) {
+  .listSection {
+    width: 100%;
+    padding: 0;
+  }
+
+  .list .listItems .itemRightIcon {
+    width: 30%;
+    padding-right: 0;
+  }
+}
